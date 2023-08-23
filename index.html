@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+</head>
+<body>
+     <header>
+    <div class="head">
+        <div>
+          <img src="./logo.jpg" alt="logo" />
+        </div>
+        <div class="icon">
+          <div id="facebook-icon" onclick="redirectToFacebook()">
+            <i  class="bi bi-facebook" style="color: blue"></i>
+          </div>
+
+          <div id="instagram-icon" onclick="Instagram()">
+            <i
+            
+              class="bi bi-instagram"
+              style="color: purple"
+            ></i>
+          </div>
+          <div id="twitter-icon" onclick="Twitter()">
+            <i class="bi bi-twitter" style="color: blue"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+<main>
+
+    <div class="search">
+        <form>
+          <input id="input" type="text" placeholder="search for the weather..." />
+          <button onclick="searchweather()">search</button>
+        </form>
+      </div>
+
+      <div class="placeforecast">
+        <div class="label1">
+            <h2>TODAY'S FORECAST</h2>
+            
+        </div>
+
+        <div class="country">
+            <h2 id="country">@SplendidTech</h2>
+        </div>
+
+      </div>
+
+      <div class="reports">
+
+
+<div class="report1">
+<h3 id="city"></h3>
+
+
+<h4 id="condition"></h4>
+<img id="weatherIcon" src=""  class="imgicon">
+
+
+<h1 id="tempreature"></h1>
+<h4 id="humidity"></h4>
+<hr style="color: rgba(22, 80, 156, 0.637); width: 11vw; margin-top: 11px; font-size: 77px;">
+<div class="chance">
+
+
+<h5 id="pressure"></h5>
+
+
+
+</div>
+
+
+
+
+</div>
+
+<!-- 
+<div id="weather">
+<img id="clear" src="rain.jpeg" alt="" width="125px" 
+ height="125px" style="margin-top: 20px; display: none;">
+</div>
+
+
+
+<div class="report2">
+    <h3>OWERRI</h3>
+    <h4>-4</h4>
+<img src="rain.png" alt="" width="125px"
+height="125px" style="margin-top: 20px;">
+<h1>17</h1>
+<hr style="color: rgba(22, 80, 156, 0.637); width: 11vw; margin-top: 11px; font-size: 77px;">
+<div class="chance">
+
+<i class="bi bi-droplet-fill" style="color: aqua; font-size: 25px;"></i>
+<i class="bi bi-droplet" style="color: aqua; font-size: 25px;" ></i>
+<h5>0%</h5>
+</div>
+</div>
+
+
+<div class="report3">
+    <h3>ENUGU</h3>
+    <h4>3</h4>
+<img src="thunderstorm.jpeg" alt="" width="125px"
+height="125px" style="margin-top: 20px;">
+<h1>20</h1>
+<hr style="color: rgba(22, 80, 156, 0.637); width: 11vw; margin-top: 11px; font-size: 77px;">
+<div class="chance">
+
+<i class="bi bi-droplet-fill" style="color: aqua; font-size: 25px;"></i>
+<i class="bi bi-droplet" style="color: aqua; font-size: 25px;" ></i>
+<h5>0%</h5>
+</div>
+</div>
+
+
+<div class="report4">
+    <h3>LAGOS</h3>
+    <h4>3</h4>
+<img src="snow.jpeg" alt="" width="125px"
+height="125px" style="margin-top: 20px;">
+<h1>18</h1>
+<hr style="color: rgba(22, 80, 156, 0.637); width: 11vw; margin-top: 11px; font-size: 77px;">
+<div class="chance">
+
+<i class="bi bi-droplet-fill" style="color: aqua; font-size: 25px;"></i>
+<i class="bi bi-droplet" style="color: aqua; font-size: 25px;" ></i>
+<h5>0%</h5>
+</div>
+</div>
+
+<div class="report5">
+    <h3>ABUJA</h3>
+    <h4>-5</h4>
+<img src="mist.jpeg" alt="" width="125px"
+height="125px" style="margin-top: 20px;">
+<h1>10</h1>
+<hr style="color: rgba(22, 80, 156, 0.637); width: 11vw; margin-top: 11px; font-size: 77px;">
+<div class="chance">
+
+<i class="bi bi-droplet-fill" style="color: aqua; font-size: 25px;"></i>
+<i class="bi bi-droplet" style="color: aqua; font-size: 25px;" ></i>
+<h5>0%</h5>
+</div>
+</div>
+
+
+<div class="report6">
+    <h3>JOS</h3>
+    <h4>2</h4>
+<img src="clouds.png" alt="" width="125px"
+height="125px" style="margin-top: 20px;">
+<h1>15</h1>
+<hr style="color: rgba(22, 80, 156, 0.637); width: 11vw; margin-top: 11px; font-size: 77px;">
+<div class="chance">
+
+<i class="bi bi-droplet-fill" style="color: aqua; font-size: 25px;"></i>
+<i class="bi bi-droplet" style="color: aqua; font-size: 25px;" ></i>
+<h5>0%</h5>
+</div>
+</div> -->
+
+
+
+      </div>
+
+
+</main>
+
+<script src="weatherapi.js"></script>
+</body>
+</html>
