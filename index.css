@@ -229,7 +229,7 @@ h5 {
 
 
 .report1 {
-    width: 60vw;
+    width: 70vw;
     height: 60vh;
     margin-top: 11px;
     border: 2px solid rgba(22, 80, 156, 0.637);
@@ -276,6 +276,39 @@ h5 {
     width: 15vw;
     height: 20vh;
     margin-top: 20px;
+}
+
+.label1 {
+     width: 40vw;
+    height: 7vh;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 15px;
+    
+}
+
+.label1 h2 {
+    text-align: center;
+    font-size: 25px;
+    width: 35vw;
+    
+}
+
+.placeforecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.country {
+display: none;
+    border: none;
+    color: white;
+    width: 20vw;
+    height: 7vh;  
 }
 
 }
